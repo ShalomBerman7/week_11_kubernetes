@@ -1,3 +1,16 @@
 ניר רצה שנוריד קובץ zip
+
 1.2 minikube start
     minikube status
+
+דוגמה לפקודות git:
+    git checkout -b started
+    git add .
+    git commit -m "Preparing files"
+    git push --set-upstream origin started
+    git checkout dockerfile
+    git pull origin started
+
+2.2 docker build -t image-test .
+    docker login
+    docker push image-test:latest
