@@ -11,6 +11,13 @@
     git checkout dockerfile
     git pull origin started
 
-2.2 docker build -t image-test .
+2.2 docker build -t shalomberman/week11:latest .
+    docker push shalomberman/week11:latest
     docker login
-    docker push image-test:latest
+
+4.1 kubectl apply -f pod.yaml
+    kubectl apply -f service.yaml
+
+4.2 kubectl get pods
+    kubectl get service
+    kubectl get all

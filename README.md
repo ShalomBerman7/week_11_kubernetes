@@ -1,1 +1,1 @@
-בניית ה Dokerfile והרצה של ה image
+בניית ה pod.yaml וה service.yaml
