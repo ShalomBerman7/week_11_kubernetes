@@ -1,0 +1,3 @@
+ניר רצה שנוריד קובץ zip
+1.2 minikube start
+    minikube status
