@@ -10,4 +10,4 @@ spec:
     image: shalomberman/week11:latest
     imagePullPolicy: IfNotPresent
     ports:
-    - containerPort: 8000
+    - containerPort: 8080
