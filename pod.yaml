@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app
+  labels:
+    app: app
+spec:
+  containers:
+  - name: app
+    image: shalomberman/week11:latest
+    imagePullPolicy: IfNotPresent
+    ports:
+    - containerPort: 8000
