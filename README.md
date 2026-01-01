@@ -1,1 +1,3 @@
-בניית ה pod.yaml וה service.yaml
+shalom berman
+negev
+212797740
